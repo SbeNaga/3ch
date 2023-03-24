@@ -1,0 +1,91 @@
+body
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+
+}
+*,::before,::after
+{
+    box-sizing: border-box;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  span 
+  {
+    cursor:pointer
+  }
+    .icon
+  {
+    padding-left: 10px;
+    margin:0;
+  }
+  .burger
+  {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  header
+  {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(240, 9, 124) ;
+  }
+
+  .container
+  {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    height: 1080px;
+    width:100%;
+  }
+  .about-main
+  { 
+    justify-content: center;
+    text-align: center;
+  }
+  h2
+  {
+    margin: 0;
+  }
